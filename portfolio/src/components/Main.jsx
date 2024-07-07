@@ -1,11 +1,18 @@
 import React from 'react';
-import '../assets/styles/a.scss'
+import Intro from './Intro';
+import '../assets/styles/main.scss'
+import Skils from './Skils';
+import Projects from './Projects';
+import Footer from './Footer';
 
 const Main = () => {
     
     return (
-        <div className='a'>
-            <p id='a'></p>
+        <div className='main_container'>
+            <Intro/>
+            <Skils/>
+            <Projects/>
+            <Footer/>
         </div>
     );
 };
