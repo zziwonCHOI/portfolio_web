@@ -1,0 +1,37 @@
+.footer_container{
+    padding-top: 5vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    .text1{
+        background-color: pink;
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items: center;
+        height: 6vw;
+        max-height: 300px;
+        color: rgb(65, 53, 35);
+        font-family: "Silkscreen", sans-serif;
+        font-size: clamp(5px,1vw,15px);
+        
+    }
+    .btn{
+        display: flex;
+        flex-direction: row;
+        p{
+            border: 10px groove rgb(155, 151, 151);
+            outline: 10px groove powderblue;
+            border-radius: 1vw;
+            margin-left: 3vw;
+            margin-right: 3vw;
+            width: 5vw;
+            color: rgb(65, 53, 35);
+            font-family: "Silkscreen", sans-serif;
+            text-align: center;
+            padding: 0.5vw;
+            font-size: clamp(10px,1vw,30px);
+        }
+    }
+}
