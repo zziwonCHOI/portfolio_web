@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'EF_MACHO';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_MACHO.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:'DNFBitBitv2';
+    font-style:normal;font-weight:400;
+    src:url('//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf')format('opentype')}
+@font-face {
+    font-family: 'neodgm';
+    src: url('../fonts/neodgm.woff') format('woff');
+}
+
+
+.project_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10vw;
+    padding-left:5vw;
+    align-items: center;
+    // padding-bottom: 200px;
+    .t{
+        border: 10px groove white;
+        outline: 10px groove purple;
+        border-radius: 2vw;
+        width: 70vw;
+        max-width: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: rgb(238, 224, 203);
+            font-family: "Silkscreen", sans-serif;
+            font-weight: 700;
+            font-size: clamp(30px,5vw,70px);
+            
+        }
+    }
+    .project{
+        display: flex;
+        flex-direction:row;
+        padding-top: 10vw;
+        &:nth-child(odd){
+            align-items: flex-start;
+        }
+        &:nth-child(even){
+            align-items: flex-end;
+        }
+        .project_title{
+            display: flex;
+            flex-direction: column;
+            border: 10px dotted rgb(84, 77, 84);
+            border-radius: 5vw;
+            // outline: 10px groove rgb(230, 211, 211);
+            padding: 1vw;
+            width: 50vw;
+            .icon{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                img{
+                    width: 15vw;
+                    max-width: 600px;
+                }
+            }
+            #name{
+                font-family:'DNFBitBitv2';
+                font-style: oblique;
+                font-size: clamp(30px,5vw,100px);
+                color: rgb(42, 13, 70);
+                text-shadow: 5px 5px 20px rgb(68, 66, 66) ;
+            }
+        }
+        #ex{
+            font-family: 'EF_MACHO';
+            color: rgb(151, 190, 151);
+            font-size: 30px;
+        }
+        .skil{
+            display: flex;
+            flex-direction: row;
+            font-size: clamp(30px,1vw,50px);
+            color: rgb(238, 224, 203);
+            font-family: "neodgm";
+            p{
+                margin: 1vw;
+                border: 1px solid rgb(237, 154, 198) ;
+                background-color:rgb(237, 154, 198);
+                border-radius: 5vw;
+                padding: 10px;
+            }
+        }
+    }
+}
