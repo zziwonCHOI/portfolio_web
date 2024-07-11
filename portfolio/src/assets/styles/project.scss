@@ -53,7 +53,7 @@
         .project_title{
             display: flex;
             flex-direction: column;
-            border: 10px dotted rgb(84, 77, 84);
+            border: 5px solid rgb(196, 186, 186);
             border-radius: 5vw;
             // outline: 10px groove rgb(230, 211, 211);
             padding: 1vw;
@@ -71,13 +71,15 @@
                 font-family:'DNFBitBitv2';
                 font-style: oblique;
                 font-size: clamp(30px,5vw,100px);
-                color: rgb(42, 13, 70);
+                // color: rgb(42, 13, 70);
+            color: rgb(238, 224, 203);
+
                 text-shadow: 5px 5px 20px rgb(68, 66, 66) ;
             }
         }
         #ex{
             font-family: 'EF_MACHO';
-            color: rgb(151, 190, 151);
+            color: rgb(209, 227, 209);
             font-size: 30px;
         }
         .skil{
