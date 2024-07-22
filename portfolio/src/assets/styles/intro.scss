@@ -11,6 +11,7 @@
     flex-direction: column;
     
     .title{
+        padding-top: 10vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -29,12 +30,26 @@
         justify-content: center;
         align-items: center;
         img{
-            width: 10vw;
+            width: 12vw;
+            height: 12vw;
             border: 1px solid rgb(238, 224, 203);
             border-radius: 100%;
             padding: 1vw;
             margin-right: 5vw;
             background-color:rgb(238, 224, 203) ;
+        }
+        .img_info{
+            width: 12vw;
+            height: 12vw;
+            border: 1px solid rgb(238, 224, 203);
+            border-radius: 100%;
+            padding: 1vw;
+            margin-right: 5vw;
+            background-color:rgb(238, 224, 203) ;
+            text-align: center;
+            align-content: center;
+            font-size: 1vw;
+
         }
         .texts{
             p{
