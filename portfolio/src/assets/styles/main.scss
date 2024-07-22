@@ -1,3 +1,21 @@
 .main_container{
     background-color: rgb(193, 69, 90);
+    overflow: hidden;
+    position: relative;
+    .star{
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        background: white;
+        border-radius: 50%;
+        animation: moveStar 50s linear infinite;
+    }
 }
+@keyframes moveStar {
+    from {
+        transform: translateY(100vh);
+    }
+    to {
+        transform: translateY(-100vh);
+    }
+  }
