@@ -7,9 +7,9 @@ const Footer = () => {
             <div className='text1'>
                 <p>copyright 2024. Designed & Developed by JIWON CHOI</p>
                 <div className='btn'>
-                    <p>Github</p>
-                    <p>Blog</p>
-                    <p>Email</p>
+                    <a href='https://github.com/zziwonCHOI?tab=repositories'>Github</a>
+                    <a href='https://gguyeokdo.tistory.com/'>Blog</a>
+                    <a href='mailto:wldnjssem6@naver.com'>Email</a>
                 </div>
                 <p>Do you like my portfolio? Send email!</p>
                 
