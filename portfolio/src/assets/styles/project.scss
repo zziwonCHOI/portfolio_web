@@ -16,12 +16,9 @@
 
 .project_container{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     padding-top: 10vw;
-    padding-left:5vw;
     align-items: center;
-    // padding-bottom: 200px;
     .t{
         border: 10px groove white;
         outline: 10px groove purple;
@@ -44,18 +41,21 @@
         display: flex;
         flex-direction:row;
         padding-top: 10vw;
+        // animation: move 1s linear;
         &:nth-child(odd){
-            align-items: flex-start;
+            animation: moveOdd 1s linear;
         }
         &:nth-child(even){
-            align-items: flex-end;
+            animation: moveEven 1s linear;
+            
         }
         .project_title{
+            background-color: rgb(136, 143, 242);
             display: flex;
             flex-direction: column;
-            border: 5px solid rgb(196, 186, 186);
+            border: 10px solid rgb(185, 188, 223);
             border-radius: 5vw;
-            // outline: 10px groove rgb(230, 211, 211);
+            outline: 10px groove rgb(131, 135, 206);
             padding: 1vw;
             width: 50vw;
             .icon{
@@ -98,3 +98,19 @@
         }
     }
 }
+@keyframes moveOdd {
+    from {
+        transform: translateX(-10vw);
+    }
+    to {
+        transform: translateX(-5vh);
+    }
+  }
+  @keyframes moveEven {
+    from {
+        transform: translateX(10vw);
+    }
+    to {
+        transform: translateX(5vh);
+    }
+  }
