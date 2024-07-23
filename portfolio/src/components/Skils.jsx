@@ -21,26 +21,26 @@ const Skils = () => {
                 <p>Languages</p>
             </div>
             <div className='images'>
-                <img src={html} alt="html" />
-                <img src={css} alt="css" />
-                <img src={Js} alt="js" />
-                <img src={ts} alt="ts" />
-                <img src={sass} alt="sass" />
+                <div><img src={html} alt="html" /><p>familiar</p></div>
+                <div><img src={css} alt="css" /><p>familiar</p></div>
+                <div><img src={Js} alt="js" /><p>familiar</p></div>
+                <div><img src={ts} alt="ts" /><p>tried</p></div>
+                <div><img src={sass} alt="sass" /><p>tried</p></div>
             </div>
             <div className='t-2'>
                 <p>Platforms</p>
             </div>
             <div className='images'>
-                <img src={react} alt="react" />
-                <img src={reactnative} alt="rn" />
+                <div><img src={react} alt="react" /><p>familiar</p></div>
+                <div><img src={reactnative} alt="rn" /><p>tried</p></div>
             </div>
             <div className='t-2'>
                 <p>Tools</p>
             </div>
             <div className='images'>
-                <img src={vs} alt="vs" />
-                <img src={git} alt="git" />
-                <img src={notion} alt='notion'/>
+                <div><img src={vs} alt="vs" /><p>familiar</p></div>
+                <div><img src={git} alt="git" /><p>familiar</p></div>
+                <div><img src={notion} alt='notion'/><p>familiar</p></div>
             </div>
         </div>
     );
