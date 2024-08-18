@@ -67,7 +67,7 @@ const Projects = () => {
                         <p id='name'>M.C.C homepage</p>
                         <img src={mcc} alt='icon' style={{ height: '17.5vw' }} />
                     </div>
-                    <p id='ex'>명지대학교 컴퓨터 동아리 m.c.c의 홈페이지. 동아리의 간략한 소개와 활동 결과들을 보여주는 홈페이지</p>
+                    <p id='ex'>명지대학교 컴퓨터 동아리 m.c.c의 홈페이지. 동아리의 간략한 소개와 활동 결과들을 보여주는 홈페이지 </p>
                     <div className='skil'>
                         <p>Javascript</p>
                         <p>React</p>
