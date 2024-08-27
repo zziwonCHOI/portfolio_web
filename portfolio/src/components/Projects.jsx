@@ -52,7 +52,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-            </motion.div>
+            </motion.div> 
 
             <motion.div
                 className='project'
