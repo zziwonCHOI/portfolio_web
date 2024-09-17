@@ -35,8 +35,8 @@ const Intro = () => {
                 <div onMouseEnter={handlerMouseHover} onMouseLeave={handlerMouseLeave}>
                     {img?<img src={Jw} alt='jw'></img>:
                         <div className='img_info'>
-                            <p style={{fontFamily:'neodgm'}}>최지원</p>
-                            <p style={{fontFamily:'"Black Ops One", system-ui'}}>2002.01.22</p>
+                            <p style={{fontFamily:'neodgm', fontSize:50}}>Frontend</p>
+                            <p style={{fontFamily:'"Black Ops One", system-ui'}}>mbti: INTJ</p>
                         </div>
                     }
                 </div>
