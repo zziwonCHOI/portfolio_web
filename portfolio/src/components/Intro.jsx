@@ -37,7 +37,6 @@ const Intro = () => {
                         <div className='img_info'>
                             <p style={{fontFamily:'neodgm'}}>최지원</p>
                             <p style={{fontFamily:'"Black Ops One", system-ui'}}>2002.01.22</p>
-                            <p style={{fontFamily:'"Black Ops One", system-ui'}}>Myongji Univ</p>
                         </div>
                     }
                 </div>
